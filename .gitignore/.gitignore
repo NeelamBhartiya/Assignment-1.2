@@ -1,0 +1,12 @@
+1. v<-c(2,5,5,6)
+t<-c(8,3,4)
+print(v%/%t)
+o/p-[1] 0 1 1 0
+Warning message:
+In v%/%t : longer object length is not a multiple of shorter object length
+2.library(readxl)
+file.list <- list.files(pattern='*.xlsx')
+df.list <- lapply(file.list, read_excel)
+df.list
+3.MyData <- read.csv(file="c://Users/Windows 10/Desktop/Neelam_ACADGILD/R programming/xx_1.csv", header=TRUE, sep=",")
+MyData
